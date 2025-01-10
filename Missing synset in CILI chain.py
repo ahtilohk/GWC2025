@@ -256,10 +256,10 @@ def merge_differences(all_differences):
 
 if __name__ == '__main__':
     # Kasutamine
-    focus_wordnet = r"C:\Users\kasutaja\Anaconda__Projects\OMW Project in Singapore\wordnets\estwn-et-2.6.0.xml"
-    reference_wordnet = r"C:\Users\kasutaja\Anaconda__Projects\OMW Project in Singapore\wordnets\english-wordnet-2023.xml"
-    output_file_path = r"C:\Users\kasutaja\Anaconda__Projects\OMW Project in Singapore\wordnets\wordnet_comparison_results2.txt"
-    extra_concepts_file_path = r"C:\Users\kasutaja\Anaconda__Projects\OMW Project in Singapore\wordnets\extra_concepts_in_focus2.txt"
+    focus_wordnet = r"C:\Users\kasutaja\Anaconda__Projects\...\wordnets\estwn-et-2.6.0.xml"
+    reference_wordnet = r"C:\Users\kasutaja\Anaconda__Projects\...\wordnets\english-wordnet-2023.xml"
+    output_file_path = r"C:\Users\kasutaja\Anaconda__Projects\...\wordnet_comparison_results2.txt"
+    extra_concepts_file_path = r"C:\Users\kasutaja\Anaconda__Projects\...\extra_concepts_in_focus2.txt"
 
     try:
         print("Starting WordNet comparison...")
